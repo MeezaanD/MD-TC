@@ -1,5 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
 }
+
+body {
+    background-color: #e8e8e8 !important;
+}
+
+h1 {
+    text-align: center  ;
+}
+
+.form-check-label {
+    font-weight: 900;
+}
+
+.btn {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+  }
+
+.container {
+    margin: 13rem;
+    width: 100%;
+    min-width: 30rem;
+    padding: 1rem 10rem 1rem 10rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+}
+
+.form-group {
+    width: 100%;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+
+input[type="text"] {
+    border: 1px solid #090909;
+    background-color: transparent;
+  }
+
+  /* Change the color of the range slider track */
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-color: transparent; /* Set your desired color */
+  }
+
+  /* Change the color of the range slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    background-color: red; /* Set your desired color */
+  }
